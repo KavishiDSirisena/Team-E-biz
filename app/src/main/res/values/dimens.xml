@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="Layout1">16dp</dimen>
+    <dimen name="Layout">50dp</dimen>
+    <dimen name="Text1">32sp</dimen>
+    <dimen name="laypadding">32dp</dimen>
+    <dimen name="Text2">25sp</dimen>
+    <dimen name="Sizetext1">20dp</dimen>
+    <dimen name="Sizetext2">18sp</dimen>
+    <dimen name="laypadding1">12dp</dimen>
+    <dimen name="Laymar">8dp</dimen>
+    <dimen name="laywei">200dp</dimen>
+    <dimen name="Layheight">48dp</dimen>
+    <dimen name="Layheight1">1dp</dimen>
+    <dimen name="laymar1">5dp</dimen>
+    <dimen name="evelution">0dp</dimen>
+</resources>

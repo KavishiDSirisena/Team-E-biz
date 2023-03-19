@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">E-biz</string>
+    <string name="todo">TODO</string>
+    <string name="forget_password_detail" />
+    <string name="enter_phone_number" />
+    <string name="next_btn" />
+    <string name="enter_your_email" />
+    <string name="todof">TODO</string>
+    <string name="activity_signup" >dropDownMenuExample</string>
+    <string name="forget_password">Forget Password?</string>
+    <string-array name="languages">
+        <item>Investor</item>
+        <item>Entrepreneur</item>
+        <item>Volunteer</item>
+    </string-array>
+</resources>
