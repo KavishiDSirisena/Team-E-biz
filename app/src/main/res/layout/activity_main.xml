@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenback"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="@dimen/Layout1width"
+        android:layout_height="@dimen/Layout1height"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/head1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/head1"
+            android:fontFamily="@font/f5"
+            android:textSize="24sp"
+            android:textColor="#FFFF"
+            android:layout_margin="@dimen/Text1margin"/>
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/Layout2height"
+            android:layout_gravity="center_horizontal"
+            android:alignmentMode="alignMargins"
+            android:layout_marginTop="@dimen/Layout2marginTop"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crd"
+                android:layout_width="@dimen/Card1layout"
+                android:layout_height="@dimen/Card1layout"
+                android:layout_margin="@dimen/Card1margin"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="@dimen/Card1radius"
+                app:cardElevation="@dimen/Card1elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="@dimen/Imageview1width"
+                        android:layout_height="@dimen/Imageview1width"
+                        android:layout_marginTop="@dimen/Imagemargintop"
+                        android:src="@drawable/home" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/button1margintop"
+                        android:fontFamily="@font/f7"
+                        android:text="@string/button6"
+                        android:textColor="#FFFF"
+                        android:textSize="@dimen/buttontext" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/Card1layout"
+                android:layout_height="@dimen/Card1layout"
+                android:layout_margin="@dimen/Text1margin"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="@dimen/Card1radius"
+                app:cardElevation="@dimen/Card1elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="@dimen/Imageview1width"
+                        android:layout_height="@dimen/Imageview1width"
+                        android:layout_marginTop="@dimen/Imagemargintop"
+                        android:src="@drawable/us" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/button1margintop"
+                        android:background="@color/green"
+                        android:fontFamily="@font/f5"
+                        android:text="@string/button"
+                        android:textColor="#FFFF"
+                        android:textSize="@dimen/buttontext2" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/Card1layout"
+                android:layout_height="@dimen/Card1layout"
+                android:layout_margin="@dimen/Text1margin"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="@dimen/Card1radius"
+                app:cardElevation="@dimen/Card1elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="@dimen/Imageview1width"
+                        android:layout_height="@dimen/Imageview1width"
+                        android:layout_marginTop="@dimen/Imagemargintop"
+                        android:src="@drawable/feedback" />
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/button1margintop"
+                        android:fontFamily="@font/f7"
+                        android:text="@string/button1"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="@dimen/buttontext" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/Card1layout"
+                android:layout_height="@dimen/Card1layout"
+                android:layout_margin="@dimen/Card1margin"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="@dimen/Card1radius"
+                app:cardElevation="@dimen/Card1elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="@dimen/Imageview1width"
+                        android:layout_height="@dimen/Imageview1width"
+                        android:layout_marginTop="@dimen/Imagemargintop"
+                        android:src="@drawable/idea" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/button1margintop"
+                        android:fontFamily="@font/f7"
+                        android:text="@string/button7"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="@dimen/buttontext" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/button2width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/Card1margin"
+            android:background="@color/green"
+            android:fontFamily="@font/f5"
+            android:text="@string/button2"
+            android:textColor="#FFFFFFFF"
+            android:textSize="@dimen/buttontext2" />
+
+
+    </LinearLayout>
+</ScrollView>

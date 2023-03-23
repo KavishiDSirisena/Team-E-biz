@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Dashboard , Home Margins, per the Android Design Guidelines. -->
+    <dimen name="Layout1width">410dp</dimen>
+    <dimen name="Layout1height">210dp</dimen>
+    <dimen name="Text1margin">10dp</dimen>
+    <dimen name="Layout2height">437dp</dimen>
+    <dimen name="Layout2marginTop">70dp</dimen>
+    <dimen name="Card1layout">170dp</dimen>
+    <dimen name="Card1margin">10dp</dimen>
+    <dimen name="Card1radius">12dp</dimen>
+    <dimen name="Card1elevation">5dp</dimen>
+    <dimen name="Imageview1width">60dp</dimen>
+    <dimen name="Imagemargintop">18dp</dimen>
+    <dimen name="button1margintop">20dp</dimen>
+    <dimen name="buttontext">20dp</dimen>
+    <dimen name="buttontext2">18dp</dimen>
+    <dimen name="button2width">150dp</dimen>
+
+    <!-- Default page Margins, Per the Android Design Guidelines -->
+    <dimen name="Image2width">0dp</dimen>
+    <dimen name="Layout3height">315dp</dimen>
+    <dimen name="textsize1">45dp</dimen>
+    <dimen name="Image3width">207dp</dimen>
+    <dimen name="Image3heigth">132dp</dimen>
+    <dimen name="button3width">350dp</dimen>
+    <dimen name="button3marginleft">30dp</dimen>
+    <dimen name="button3margintop">40dp</dimen>
+    <dimen name="button4width">350dp</dimen>
+    <dimen name="button4height">68dp</dimen>
+    <dimen name="button5height">77dp</dimen>
+
+</resources>

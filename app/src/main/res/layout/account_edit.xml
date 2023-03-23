@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".successActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="235dp">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView15"
+                app:srcCompat="@drawable/top_gradle" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="262dp"
+                android:layout_height="235dp"
+                app:srcCompat="@drawable/top_background"
+                tools:layout_editor_absoluteX="-3dp" />
+
+            <TextView
+                android:id="@+id/head15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/head15"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+                app:layout_constraintEnd_toEndOf="@+id/imageView17"
+                app:layout_constraintStart_toStartOf="@+id/imageView17"
+                app:layout_constraintTop_toTopOf="@+id/imageView17" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/head16"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:inputType="textPersonName"
+                    android:hint="@string/head16" />
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:text="@string/button19"
+                    android:textSize="20dp"/>
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:textSize="20dp"
+                    android:text="@string/button22" />
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:textSize="20dp"
+                    android:text="@string/button20" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
