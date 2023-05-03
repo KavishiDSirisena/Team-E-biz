@@ -28,11 +28,11 @@
 
             <ImageView
                 android:id="@+id/imageView15"
-                android:layout_width="415dp"
-                android:layout_height="235dp"
+                android:layout_width="419dp"
+                android:layout_height="239dp"
                 app:srcCompat="@drawable/top_background"
                 tools:layout_editor_absoluteX="-3dp"
-                tools:layout_editor_absoluteY="0dp" />
+                tools:layout_editor_absoluteY="-4dp" />
 
             <TextView
                 android:id="@+id/head14"
@@ -65,7 +65,7 @@
                 android:id="@+id/imageButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="#26D590"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.044"
@@ -78,7 +78,7 @@
                 android:id="@+id/imageButton2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="#068251"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.928"
