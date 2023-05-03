@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="50dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="437dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:srcCompat="@drawable/top_background_gradient" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/topImage_layout_width"
+                android:layout_height="@dimen/topImage_layout_height"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/top_background" />
+
+            <TextView
+                android:id="@+id/tvInvestment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/topText_layout_marginTop"
+                android:text="@string/tvInvestment"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/topText_textSize"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="@dimen/image1_layout_width"
+                android:layout_height="@dimen/image1_layout_height"
+                android:layout_marginTop="@dimen/image1_layout_marginTop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:srcCompat="@drawable/inv" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/linearLayout1_layout_width"
+            android:layout_height="@dimen/linearLayout1_layout_height"
+            android:layout_marginLeft="@dimen/linearLayout1_layout_marginLeft"
+            android:layout_marginTop="@dimen/linearLayout1_layout_marginTop"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonNewInvest"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn1_layout_height"
+                android:text="@string/buttonNewInvest"
+                android:textSize="@dimen/btn1_textSize"
+                android:textStyle="bold"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/buttonInvDetails"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn1_layout_height"
+                android:layout_marginTop="@dimen/btn2_layout_marginTop"
+                android:text="@string/buttonInvDetails"
+                android:textSize="@dimen/btn1_textSize"
+                android:textStyle="bold"
+                android:backgroundTint="@color/green"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="411dp"
+        android:layout_height="203dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_background_gradient" />
+
+    <TextView
+        android:id="@+id/tvPayment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/tvPayment1"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="369dp"
+        android:layout_height="488dp"
+        app:cardBackgroundColor="@color/light_grey"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/editTextTextPersonName"
+                android:inputType="textPersonName"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/editTextNumber"
+                android:inputType="number"
+                android:textSize="20dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/editTextDate"
+                    android:layout_width="@dimen/EditText2_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/EditText2_layout_marginLeft"
+                    android:hint="@string/editTextDate"
+                    android:inputType="date"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editTextCVV"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="@string/editTextCVV"
+                    android:inputType="number"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <EditText
+                android:id="@+id/editTextAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/editTextAmount"
+                android:inputType="number"
+                android:textSize="20dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbVisa"
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/rbVisa"
+                    android:textSize="17dp" />
+
+                <RadioButton
+                    android:id="@+id/rbMaster"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/rbMaster"
+                    android:textSize="17dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="61dp">
+
+                <ImageView
+                    android:id="@+id/ivVisa"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@drawable/visa" />
+
+                <ImageView
+                    android:id="@+id/ivMaster"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    app:srcCompat="@drawable/master" />
+
+            </TableRow>
+
+            <CheckBox
+                android:id="@+id/cbSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cbSave"
+                android:textSize="20dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btnEdit"
+                    android:layout_width="@dimen/btn3_layout_width"
+                    android:layout_height="@dimen/btn3_layout_height"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/btnEdit"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnConfirm"
+                    android:layout_width="140dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/btnConfirm"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

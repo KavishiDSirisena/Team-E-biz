@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">E-biz</string>
+    <string name="tvInvestment">Check your Investment here</string>
+    <string name="buttonNewInvest">NEW INVESTMENT</string>
+    <string name="buttonInvDetails">INVESTMENT DETAILS</string>
+
+    <string name="tvNewInv">Add your new Investment</string>
+    <string name="tvText1">Entrepreneur Details</string>
+    <string name="editText1">Enter Name</string>
+    <string name="editText2">Enter Type</string>
+    <string name="editText3">Enter Account Number</string>
+    <string name="editText4">Enter E-mail</string>
+    <string name="btnProceed">PROCEED TO PAYMENT</string>
+    <string name="btnAgreement">BUSINESS AGREEMENT</string>
+
+    <string name="tvPayment1">Add your payment details</string>
+    <string name="editTextTextPersonName">Name</string>
+    <string name="editTextNumber">Card Number</string>
+    <string name="editTextDate">Exp Date</string>
+    <string name="editTextCVV">CVV</string>
+    <string name="editTextAmount">Amount</string>
+    <string name="rbVisa">Visa</string>
+    <string name="rbMaster">Master Card</string>
+    <string name="cbSave">Save Card Details</string>
+    <string name="btnEdit">EDIT</string>
+    <string name="btnConfirm">CONFIRM</string>
+
+    <string name="tvConfirmation">Confirmation</string>
+    <string name="tvThank">Thank You !</string>
+    <string name="tvMsg">Your Investment Confirm Successfully</string>
+    <string name="btnHome">BACK TO HOME</string>
+
+    <string name="tvInvDetails">Your Investments</string>
+    <string name="tvPerson1">Saman Perera</string>
+    <string name="tvId1">ID = XXXXXX</string>
+    <string name="btnPerson1">VIEW</string>
+    <string name="tvPerson2">Lisa Fernendo</string>
+    <string name="tvId2">ID = XXXXXX</string>
+    <string name="btnPerson2">VIEW</string>
+    <string name="tvPerson3">Roshan Dissanayake</string>
+    <string name="tvId3">ID = XXXXXX</string>
+    <string name="btnPerson3">VIEW</string>
+    <string name="btnBack">BACK</string>
+
+    <string name="tvCardDetails">Card Details</string>
+    <string name="editTextTextPersonName2">Name</string>
+    <string name="editTextNumber2">Card Number</string>
+    <string name="editTextDate2">Date</string>
+    <string name="editTextNumber3">CVV</string>
+    <string name="btnUpdate">UPDATE AND SAVE</string>
+    <string name="btnDelete">DELETE</string>
+    <string name="btnBack2">BACK</string>
+
+</resources>
+
+
+

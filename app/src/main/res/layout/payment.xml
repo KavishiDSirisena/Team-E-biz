@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="50dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="@dimen/topImage_layout_width"
+                android:layout_height="@dimen/topImage_layout_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/top_background_gradient" />
+
+            <TextView
+                android:id="@+id/tvNewInv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/tvNewInv"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/topText_textSize"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cV1"
+                android:layout_width="@dimen/cV1_layout_width"
+                android:layout_height="@dimen/cV1_layout_height"
+                android:layout_marginTop="@dimen/editText1_layout_marginTop"
+                app:cardBackgroundColor="@color/light_grey"
+                app:cardCornerRadius="@dimen/card1_ardCornerRadius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/pay1" />
+
+                <LinearLayout
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="12dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cvCard1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card1_layout_height"
+                        app:cardBackgroundColor="@color/grey"
+                        app:cardCornerRadius="@dimen/card1_ardCornerRadius">
+
+                        <TextView
+                            android:id="@+id/tvText1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/tvText1_layout_marginLeft"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/tvText1"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/btn1_textSize"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/editText1_layout_marginTop"
+                        android:hint="@string/editText1"
+                        android:inputType="textPersonName"
+                        android:textSize="@dimen/editText1_textSize" />
+
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:hint="@string/editText2"
+                        android:inputType="textPersonName"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/editText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:hint="@string/editText3"
+                        android:inputType="number|textPersonName"
+                        android:textSize="20dp" />
+
+                    <EditText
+                        android:id="@+id/editTextText4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:hint="@string/editText4"
+                        android:inputType="textEmailAddress"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btnProceed"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/btnProceed"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnAgreement"
+                        android:layout_width="310dp"
+                        android:layout_height="72dp"
+                        android:layout_marginBottom="48dp"
+                        android:text="@string/btnAgreement"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

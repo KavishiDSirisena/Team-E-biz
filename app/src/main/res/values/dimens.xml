@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default margins in activiy_main -->
+
+    <dimen name="topImage_layout_width">413dp</dimen>
+    <dimen name="topImage_layout_height">203dp</dimen>
+    <dimen name="topText_layout_marginTop">50dp</dimen>
+    <dimen name="topText_textSize">40dp</dimen>
+    <dimen name="image1_layout_width">417dp</dimen>
+    <dimen name="image1_layout_height">277dp</dimen>
+    <dimen name="image1_layout_marginTop">5dp</dimen>
+    <dimen name="linearLayout1_layout_width">270dp</dimen>
+    <dimen name="linearLayout1_layout_height">187dp</dimen>
+    <dimen name="linearLayout1_layout_marginLeft">75dp</dimen>
+    <dimen name="linearLayout1_layout_marginTop">75dp</dimen>
+    <dimen name="btn1_layout_height">80dp</dimen>
+    <dimen name="btn1_textSize">25dp</dimen>
+    <dimen name="btn2_layout_marginTop">10dp</dimen>
+
+    <!-- Default margins in payment -->
+
+    <dimen name="card1_layout_height">56dp</dimen>
+    <dimen name="card1_ardCornerRadius">20dp</dimen>
+    <dimen name="editText1_layout_marginTop">20dp</dimen>
+    <dimen name="editText1_textSize">20dp</dimen>
+    <dimen name="cV1_layout_width">341dp</dimen>
+    <dimen name="cV1_layout_height">503dp</dimen>
+    <dimen name="tvText1_layout_marginLeft">40dp</dimen>
+
+    <!-- Default margins in payment2 -->
+
+    <dimen name="EditText2_layout_width">120dp</dimen>
+    <dimen name="EditText2_layout_marginLeft">20dp</dimen>
+    <dimen name="btn3_layout_width">140dp</dimen>
+    <dimen name="btn3_layout_height">60dp</dimen>
+    <dimen name="btn3_layout_marginLeft">5dp</dimen>
+    <dimen name="btn4_layout_marginLeft">10dp</dimen>
+
+    <!-- Default margins in confirmation -->
+
+    <dimen name="card2_layout_width">250dp</dimen>
+    <dimen name="card2_layout_height">80dp</dimen>
+    <dimen name="tvMsg_layout_width">264dp</dimen>
+    <dimen name="tvMsg_layout_height">77dp</dimen>
+
+    <!-- Default margins in Investments -->
+
+    <dimen name="card3_layout_width">347dp</dimen>
+    <dimen name="card3_layout_height">114dp</dimen>
+
+</resources>

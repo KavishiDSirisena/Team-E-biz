@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="411dp"
+        android:layout_height="203dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/top_background_gradient" />
+
+    <TextView
+        android:id="@+id/tvInvDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/tvInvDetails"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="435dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="347dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/light_grey"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/ivPerson1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/profile1" />
+
+            <TextView
+                android:id="@+id/tvPerson1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/tvPerson1"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvId1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/tvId1"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPerson1"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="65dp"
+                android:text="@string/btnPerson1" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="347dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/light_grey"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/ivPerson2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/profile4" />
+
+            <TextView
+                android:id="@+id/tvPerson2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/tvPerson2"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvId2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/tvId2"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPerson2"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="65dp"
+                android:text="@string/btnPerson2" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="347dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/light_grey"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/ivPerson3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/profile3" />
+
+            <TextView
+                android:id="@+id/tvPerson3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/tvPerson3"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvId3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/tvId3"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPerson3"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="65dp"
+                android:text="@string/btnPerson3" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="@string/btnBack"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.232" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
