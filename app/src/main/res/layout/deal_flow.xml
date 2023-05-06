@@ -103,9 +103,19 @@
                     android:text="@string/button14"
                     android:textColor="#ffff"
                     android:textSize="@dimen/buttontext"/>
-
                 <Button
                     android:id="@+id/button21"
+                    android:layout_width="@dimen/button3width"
+                    android:layout_height="@dimen/button4height"
+                    android:layout_marginLeft="@dimen/button3marginleft"
+                    android:layout_marginTop="@dimen/Card1margin"
+                    android:background="@color/green"
+                    android:text="@string/button50"
+                    android:textColor="#ffff"
+                    android:textSize="@dimen/buttontext"/>
+
+                <Button
+                    android:id="@+id/button15"
                     android:layout_width="@dimen/button3width"
                     android:layout_height="@dimen/button4height"
                     android:layout_marginLeft="@dimen/button3marginleft"
@@ -114,6 +124,8 @@
                     android:text="@string/button20"
                     android:textColor="#ffff"
                     android:textSize="@dimen/buttontext" />
+
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

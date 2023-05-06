@@ -50,7 +50,9 @@
                 app:layout_constraintVertical_bias="0.586" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -110,23 +112,198 @@
                     android:hint="@string/editText4"
                     android:textSize="20dp"/>
 
-                <Button
-                    android:id="@+id/button15"
-                    android:layout_width="315dp"
+                <TextView
+                    android:id="@+id/editText5"
+                    android:layout_width="246dp"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="60dp"
+                    android:hint="@string/editText5"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.096"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="187dp"
+                    android:layout_height="48dp"
+                    android:text="@string/checkBox"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toTopOf="@+id/checkBox2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.071"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="190dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/checkBox2"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.072"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="274dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/checkBox3"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.116"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="242dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/checkBox4"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.094"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="238dp"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/checkBox5"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.092"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="154dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/checkBox6"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.062"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/head5"
+                    android:layout_width="331dp"
+                    android:layout_height="75dp"
+                    android:text="@string/head5"
+
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.175"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.547" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="241dp"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="156dp"
+                    android:ems="10"
+                    android:hint="@string/editText6"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.63" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="50dp"
-                    android:text="@string/button15" />
+                    android:ems="10"
+                    android:hint="@string/editText7"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.08"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText6"
+                    app:layout_constraintVertical_bias="0.039" />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="392dp"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:hint="@string/editText8"
+                    android:inputType="textPersonName"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.736"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.789" />
+
 
                 <Button
-                    android:id="@+id/button17"
-                    android:layout_width="315dp"
+                    android:id="@+id/button3"
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="@string/button3"
+                    android:textSize="18dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.046"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.944" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button4"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.965"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.944" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="335dp"
                     android:layout_height="wrap_content"
                     android:text="@string/button16"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="50dp"/>
-
+                    android:layout_marginLeft="30dp"
+                    android:textSize="18dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.431"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.944" />
             </LinearLayout>
+
         </LinearLayout>
+
+</ScrollView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
