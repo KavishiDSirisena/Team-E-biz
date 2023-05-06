@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/top_background"
+        android:src="@drawable/top_background"
         tools:ignore="ContentDescription" />
 
     <TextView

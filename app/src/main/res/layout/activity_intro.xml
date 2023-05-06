@@ -52,7 +52,7 @@
         tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button11111"
         android:layout_width="175dp"
         android:layout_height="65dp"
         android:gravity="center"
