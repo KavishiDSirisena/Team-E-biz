@@ -3,44 +3,51 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".payment2">
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="411dp"
-        android:layout_height="203dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/top_background_gradient" />
 
-    <TextView
-        android:id="@+id/tvPayment1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="@string/tvPayment1"
-        android:textSize="40sp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="413dp"
+            android:layout_height="203dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/top_background_gradient" />
+
+        <TextView
+            android:id="@+id/tvPayment1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/tvPayment1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <androidx.cardview.widget.CardView
-        android:layout_width="369dp"
-        android:layout_height="488dp"
+        android:layout_width="365dp"
+        android:layout_height="557dp"
         app:cardBackgroundColor="@color/light_grey"
         app:cardCornerRadius="20dp"
+        android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+        app:layout_constraintVertical_bias="0.252"
+        tools:ignore="NotSibling">
 
         <LinearLayout
-            android:layout_width="300dp"
+            android:layout_width="330dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:orientation="vertical">
@@ -126,14 +133,14 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
-                    app:srcCompat="@drawable/visa" />
+                    android:src="@drawable/visa" />
 
                 <ImageView
                     android:id="@+id/ivMaster"
                     android:layout_width="119dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    app:srcCompat="@drawable/master" />
+                    android:src="@drawable/master" />
 
             </TableRow>
 
@@ -141,34 +148,31 @@
                 android:id="@+id/cbSave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/cbSave"
                 android:textSize="20dp" />
 
-            <TableRow
+            <Button
+                android:id="@+id/btnNext"
                 android:layout_width="match_parent"
-                android:layout_height="71dp"
-                android:layout_marginTop="10dp">
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/green"
+                android:text="@string/btnNext"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-                <Button
-                    android:id="@+id/btnEdit"
-                    android:layout_width="@dimen/btn3_layout_width"
-                    android:layout_height="@dimen/btn3_layout_height"
-                    android:layout_marginLeft="5dp"
-                    android:text="@string/btnEdit"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-
-                <Button
-                    android:id="@+id/btnConfirm"
-                    android:layout_width="140dp"
-                    android:layout_height="60dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="@string/btnConfirm"
-                    android:textSize="20dp"
-                    android:textStyle="bold" />
-            </TableRow>
+            <Button
+                android:id="@+id/btnBack2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/green"
+                android:text="BACK"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
 
         </LinearLayout>
 

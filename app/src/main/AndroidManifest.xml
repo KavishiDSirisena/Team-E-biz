@@ -27,6 +27,10 @@
         </activity>
         <activity android:name=".payment"/>
         <activity android:name=".invDetails"/>
+        <activity android:name=".payment2"/>
+        <activity android:name=".cardDetails"/>
+        <activity android:name=".confirmation"/>
+        <activity android:name=".feedback"/>
     </application>
 
 </manifest>

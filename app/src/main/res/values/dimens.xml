@@ -22,7 +22,7 @@
 
     <dimen name="card1_layout_height">56dp</dimen>
     <dimen name="card1_ardCornerRadius">20dp</dimen>
-    <dimen name="editText1_layout_marginTop">20dp</dimen>
+    <dimen name="editText1_layout_marginTop">10dp</dimen>
     <dimen name="editText1_textSize">20dp</dimen>
     <dimen name="cV1_layout_width">341dp</dimen>
     <dimen name="cV1_layout_height">503dp</dimen>
