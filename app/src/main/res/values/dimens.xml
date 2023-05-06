@@ -1,0 +1,13 @@
+<resources>
+        <dimen name="text">20sp</dimen>
+        <dimen name="Layout">24dp</dimen>
+        <dimen name="Text1">32sp</dimen>
+        <dimen name="laytop">6dp</dimen>
+        <dimen name="Text2">18sp</dimen>
+        <dimen name="text3">16sp</dimen>
+        <dimen name="evelu">3dp</dimen>
+        <dimen name="evelu1">5dp</dimen>
+        <dimen name="Layma">10dp</dimen>
+        <dimen name="laywei">60dp</dimen>
+        <dimen name="Layhei">360dp</dimen>
+</resources>

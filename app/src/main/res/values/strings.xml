@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">E-biz</string>
+    <string name="todo">TODO</string>
+    <string name="sara_mari">Sara mari</string>
+    <string name="sara_gmail_com">sara@gmail.com</string>
+
+    <string name="tvTitle">FEEDBACK</string>
+    <string name="tvText11">As whom you want to add your feedback?</string>
+    <string name="tvText2">Add your feedback here</string>
+    <string name="feedback_input">Type your feedback here</string>
+    <string name="btnSubmit">SUBMIT</string>
+
+</resources>
