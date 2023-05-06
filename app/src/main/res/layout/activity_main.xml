@@ -55,8 +55,8 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="@dimen/image1_layout_width"
-                android:layout_height="@dimen/image1_layout_height"
+                android:layout_width="379dp"
+                android:layout_height="194dp"
                 android:layout_marginTop="@dimen/image1_layout_marginTop"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -67,29 +67,38 @@
 
         <LinearLayout
             android:layout_width="@dimen/linearLayout1_layout_width"
-            android:layout_height="@dimen/linearLayout1_layout_height"
+            android:layout_height="253dp"
             android:layout_marginLeft="@dimen/linearLayout1_layout_marginLeft"
             android:layout_marginTop="@dimen/linearLayout1_layout_marginTop"
+            android:layout_marginBottom="50dp"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/buttonNewInvest"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/btn1_layout_height"
+                android:backgroundTint="@color/green"
                 android:text="@string/buttonNewInvest"
                 android:textSize="@dimen/btn1_textSize"
-                android:textStyle="bold"
-                android:backgroundTint="@color/green"/>
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/buttonInvDetails"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/btn1_layout_height"
                 android:layout_marginTop="@dimen/btn2_layout_marginTop"
+                android:backgroundTint="@color/green"
                 android:text="@string/buttonInvDetails"
                 android:textSize="@dimen/btn1_textSize"
-                android:textStyle="bold"
-                android:backgroundTint="@color/green"/>
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:text="Update Investment"
+                android:textSize="25dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </LinearLayout>
