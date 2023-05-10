@@ -1,6 +1,8 @@
 package com.example.investormanagement
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.investormanagement.databinding.UpdateBinding
@@ -25,6 +27,13 @@ class update: AppCompatActivity() {
 
             updateData(name,phone,email)
 
+        }
+
+        val btn11: Button = findViewById<Button>(R.id.button4)
+        btn11.setOnClickListener {
+            val intent = Intent(this@update, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }

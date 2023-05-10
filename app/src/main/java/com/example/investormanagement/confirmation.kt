@@ -16,13 +16,5 @@ class confirmation: Activity() {
             startActivity(intent)
             finish()
         }
-
-            val btn8: Button = findViewById<Button>(R.id.btnHome2)
-            btn8.setOnClickListener {
-                val intent = Intent(this@confirmation, feedback::class.java)
-                startActivity(intent)
-                finish()
-            }
-
     }
 }
