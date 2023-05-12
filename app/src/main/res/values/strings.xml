@@ -32,19 +32,19 @@
     <string name="head5">Investor Details</string>
     <string name="editText6">Investor Name</string>
     <string name="editText7">Investor ID</string>
-    <string name="editText8">Agreement schedule (Date DD/MM/YYYY)</string>
+    <string name="editText8">Agreement schedule (DD/MM/YYYY)</string>
     <string name="button3">Submit</string>
     <string name="button4">Agreement</string>
     <string name="button16">Back</string>
     <string name="head6">Your New Deal Request Submitted Successfully!!</string>
     <string name="button18">Back to Deal Flow</string>
     <string name="head7">View your Deal details Here</string>
-    <string name="editText9">Enter the Deal ID Here</string>
+    <string name="editText9">Enter the Entrepreneur Name Here</string>
     <string name="button19">View</string>
     <string name="button20">Back</string>
     <string name="head8">Add Your Due Diligence CheckList Here</string>
     <string name="button22">Delete</string>
-    <string name="head9">Deal ID</string>
+    <string name="head9">Deal approached Entrepreneur Name</string>
     <string name="head10">Status</string>
     <string name="head11">CheckList</string>
     <string name="checkBox8">Contract and Agreement</string>
@@ -64,5 +64,8 @@
     <string name="switch5">Show Password</string>
     <string name="head15">View Profile</string>
     <string name="head16">Account ID</string>
+    <string name="textView4">Agreement Date</string>
+    <string name="button50">Update Due Diligance</string>
+
 
 </resources>

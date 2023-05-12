@@ -28,7 +28,6 @@
         <activity android:name=".homeActivity"/>
         <activity android:name=".dealActivity"/>
         <activity android:name=".new_dealActivity"/>
-        <activity android:name=".new_deal2"/>
         <activity android:name=".successActivity"/>
         <activity android:name=".deal_viewActivity"/>
         <activity android:name=".due_deliganceActivity"/>

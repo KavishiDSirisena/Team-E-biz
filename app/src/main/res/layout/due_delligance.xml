@@ -47,7 +47,9 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -78,8 +80,18 @@
                     android:hint="@string/head10"
                     android:textSize="20dp"/>
 
-                <TextView
+                <EditText
                     android:id="@+id/head11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textPersonName"
+                    android:hint="@string/head12"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/new1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/head11"
@@ -87,21 +99,50 @@
                     android:layout_marginTop="20dp"
                     android:textSize="20dp"/>
 
-                <CheckBox
+                <EditText
                     android:id="@+id/checkBox8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/checkBox8"
+                    android:hint="@string/checkBox8"
                     android:layout_marginTop="20dp"
                     android:textSize="20dp"/>
 
-                <CheckBox
+
+                <EditText
                     android:id="@+id/checkBox7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/checkBox7"
+                    android:hint="@string/checkBox7"
                     android:layout_marginTop="10dp"
                     android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/checkBox9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:hint="@string/checkBox9"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.095"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.389" />
+
+                <EditText
+                    android:id="@+id/checkBox10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/checkBox10"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.05"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.07" />
 
                 <Button
                     android:id="@+id/button23"
@@ -109,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:text="@string/button15" />
+                    android:text="@string/button3" />
 
                 <Button
                     android:id="@+id/button28"
@@ -120,5 +161,6 @@
 
             </LinearLayout>
         </LinearLayout>
+    </ScrollView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
