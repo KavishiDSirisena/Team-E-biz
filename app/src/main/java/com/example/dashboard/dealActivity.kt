@@ -21,13 +21,13 @@ class dealActivity : Activity() {
 
         }
 
-//        val btn10: Button = findViewById<Button>(R.id.button15)
-//        btn10.setOnClickListener {
-//            val intent = Intent(this@dealActivity, homeActivity::class.java)
-//            startActivity(intent)
-//            finish()
-//
-//        }
+        val btn10: Button = findViewById<Button>(R.id.button15)
+        btn10.setOnClickListener {
+            val intent = Intent(this@dealActivity, homeActivity::class.java)
+            startActivity(intent)
+            finish()
+
+        }
 
         val btn11: Button = findViewById<Button>(R.id.button13)
         btn11.setOnClickListener {

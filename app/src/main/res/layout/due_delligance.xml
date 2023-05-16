@@ -64,57 +64,57 @@
                     android:id="@+id/head9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:layout_marginTop="40dp"
-                    android:inputType="textPersonName"
+                    android:ems="10"
                     android:hint="@string/head9"
-                    android:textSize="20dp"/>
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
 
                 <EditText
                     android:id="@+id/head10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:layout_marginTop="20dp"
-                    android:inputType="textPersonName"
+                    android:ems="10"
                     android:hint="@string/head10"
-                    android:textSize="20dp"/>
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
 
                 <EditText
                     android:id="@+id/head11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:layout_marginTop="20dp"
-                    android:inputType="textPersonName"
+                    android:ems="10"
                     android:hint="@string/head12"
-                    android:textSize="20dp"/>
+                    android:inputType="textPersonName"
+                    android:textSize="20dp" />
 
                 <TextView
                     android:id="@+id/new1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/head11"
-                    android:textStyle="bold"
                     android:layout_marginTop="20dp"
-                    android:textSize="20dp"/>
+                    android:text="@string/head11"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/checkBox8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/checkBox8"
                     android:layout_marginTop="20dp"
-                    android:textSize="20dp"/>
+                    android:hint="@string/checkBox8"
+                    android:textSize="20dp" />
 
 
                 <EditText
                     android:id="@+id/checkBox7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/checkBox7"
                     android:layout_marginTop="10dp"
-                    android:textSize="20dp"/>
+                    android:hint="@string/checkBox7"
+                    android:textSize="20dp" />
 
                 <EditText
                     android:id="@+id/checkBox9"
@@ -134,9 +134,9 @@
                     android:id="@+id/checkBox10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
                     android:hint="@string/checkBox10"
                     android:textSize="20dp"
-                    android:layout_marginTop="20dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.05"
