@@ -1,6 +1,7 @@
 package com.example.welcom
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import com.example.welcom.databinding.ActivityIdeadeleteBinding
@@ -30,12 +31,19 @@ class ideadelete: Activity() {
             val idea: String = binding.editdelete.text.toString()
             if (idea.isNotEmpty()) {
                 deleteData(idea)
+                updateUI()
             } else {
                 Toast.makeText(this, "PLease enter the Idea id", Toast.LENGTH_SHORT).show()
             }
         }
 
 
+    }
+
+    private fun updateUI() {
+        val intent = Intent(this@ideadelete,contact_us::class.java)
+        startActivity(intent)
+        finish()
     }
 
     private fun readData(idea: String) {

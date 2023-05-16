@@ -51,7 +51,7 @@ class Idea: Activity() {
     }
 
     private fun updateUI() {
-        val intent = Intent(this@Idea, dash::class.java)
+        val intent = Intent(this@Idea, ideadelete::class.java)
         startActivity(intent)
         finishAffinity()
     }
