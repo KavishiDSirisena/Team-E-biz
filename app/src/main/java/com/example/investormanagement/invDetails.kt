@@ -28,11 +28,8 @@ class invDetails: Activity() {
                 readData(name)
 
             }else{
-
                 Toast.makeText(this,"Please enter the Entrepreneur Name",Toast.LENGTH_SHORT).show()
-
                 }
-
             }
 
         binding.button.setOnClickListener{
@@ -73,19 +70,13 @@ class invDetails: Activity() {
                 binding.textView4.text = email.toString()
 
             }else{
-
                 Toast.makeText(this,"User Doesn't Exist",Toast.LENGTH_SHORT).show()
-
-
             }
 
         }.addOnFailureListener{
 
             Toast.makeText(this,"Failed",Toast.LENGTH_SHORT).show()
-
-
-            }
-
+        }
     }
 
     private fun deleteData(name: String) {
@@ -98,8 +89,6 @@ class invDetails: Activity() {
 
         }.addOnFailureListener{
             Toast.makeText(this,"Failed",Toast.LENGTH_SHORT).show()
-
-            }
-
+        }
     }
 }
