@@ -1,13 +1,16 @@
 package com.example.dashboard
 
+
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.Switch
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
+
 
 class settingsActivity : AppCompatActivity() {
         lateinit var switcher: Switch
@@ -15,9 +18,13 @@ class settingsActivity : AppCompatActivity() {
         lateinit var sharedPreferences: SharedPreferences
         lateinit var editor: SharedPreferences.Editor
 
-        override fun onCreate(savedInstanceState: Bundle?) {
+    private lateinit var notifyBtn: Button
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.settings)
+
 
             supportActionBar?.hide()
             switcher = findViewById<Switch>(R.id.switch2)
@@ -52,6 +59,14 @@ class settingsActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             }
+        val btn72: ImageButton = findViewById<ImageButton>(R.id.imageButton2)
+        btn72.setOnClickListener {
+            val intent = Intent(this@settingsActivity, NotificationActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+
         }
     }
 
