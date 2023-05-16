@@ -9,5 +9,6 @@
     <string name="tvText2">Add your feedback here</string>
     <string name="feedback_input">Type your feedback here</string>
     <string name="btnSubmit">SUBMIT</string>
+    <string name="btnUpdate">SUBMIT</string>
 
 </resources>
