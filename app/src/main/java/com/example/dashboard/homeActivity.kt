@@ -27,7 +27,7 @@ class homeActivity:Activity() {
         }
         val btn21: Button = findViewById<Button>(R.id.button9)
         btn21.setOnClickListener {
-            val intent = Intent(this@homeActivity,settigsActivity::class.java)
+            val intent = Intent(this@homeActivity,settingsActivity::class.java)
             startActivity(intent)
             finish()
         }

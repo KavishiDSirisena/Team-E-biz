@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/green"
-    tools:context=".settigsActivity">
+    tools:context=".settingsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -99,23 +99,16 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
 
-                <Switch
-                    android:id="@+id/switch1"
-                    android:layout_width="315dp"
+                <TextView
+                    android:id="@+id/text00x"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="@string/switch1"
+                    android:text="@string/text00x"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
                     android:textSize="20dp"
                     android:layout_marginTop="40dp"
-                    android:layout_gravity="center"/>
-
-                <Switch
-                    android:id="@+id/switch3"
-                    android:layout_width="315dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/switch3"
-                    android:textSize="20dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_gravity="center"/>
+                    android:layout_marginLeft="48dp"/>
 
                 <Switch
                     android:id="@+id/switch2"
@@ -123,26 +116,81 @@
                     android:layout_height="match_parent"
                     android:text="@string/switch2"
                     android:textSize="20dp"
+                    style="@style/TEXT"
                     android:layout_marginTop="40dp"
                     android:layout_gravity="center"/>
-
-                <Switch
-                    android:id="@+id/switch5"
-                    android:layout_width="315dp"
+                <TextView
+                    android:id="@+id/text000"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="@string/switch5"
+                    android:text="@string/text000"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
                     android:textSize="20dp"
                     android:layout_marginTop="40dp"
-                    android:layout_gravity="center"/>
-
-                <Switch
-                    android:id="@+id/switch4"
-                    android:layout_width="315dp"
+                    android:layout_marginLeft="48dp"/>
+                <TextView
+                    android:id="@+id/text001"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="@string/switch4"
+                    android:text="@string/text001"
+                    android:textStyle="bold"
                     android:textSize="20dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_gravity="center"/>
+                    style="@style/TEXT"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="48dp"/>
+                <TextView
+                    android:id="@+id/text002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/text002"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    style="@style/TEXT"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="49dp"/>
+                <TextView
+                    android:id="@+id/text003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/text003"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    style="@style/TEXT"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="48dp"/>
+                <TextView
+                    android:id="@+id/text004"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/text004"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    style="@style/TEXT"
+                    android:layout_marginLeft="49dp"/>
+                <TextView
+                    android:id="@+id/text005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/text005"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    style="@style/TEXT"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="48dp"/>
+                <TextView
+                    android:id="@+id/text006"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="@string/text006"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    style="@style/TEXT"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="49dp"/>
+
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

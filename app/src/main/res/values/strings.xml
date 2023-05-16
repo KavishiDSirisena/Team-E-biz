@@ -66,6 +66,19 @@
     <string name="head16">Account ID</string>
     <string name="textView4">Agreement Date</string>
     <string name="button50">Update Due Diligance</string>
+    <string name="text000">About</string>
+    <string name="text001">Version</string>
+    <string name="text002">1.0.0.1</string>
+    <string name="text003">Backup</string>
+    <string name="text004">Available</string>
+    <string name="text005">Notification</string>
+    <string name="text006">service available</string>
+    <string name="text007">Version</string>
+    <string name="text008">1.0.0.1</string>
+    <string name="text00x">General</string>
+
+
+
 
 
 </resources>
